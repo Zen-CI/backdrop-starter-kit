@@ -6,7 +6,7 @@ deploy:
     env_vars:
       docroot: 'REPLACE_WITH_DOCROOT'
       domain: 'REPLACE_WITH_DOMAIN'
-      database_name: REPLACE_WITH_DATABASE_NAAME
+      database_name: REPLACE_WITH_DATABASE_NAME
       database_user: REPLACE_WITH_DTABASE_USER
       database_pass: REPLACE_WITH_DATABASE_PASSWORD
       account_user: REPLACE_WITH_ADMIN_USER
