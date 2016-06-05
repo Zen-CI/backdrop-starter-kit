@@ -2,7 +2,7 @@
 
 BACKDROP_DEPLOY="$HOME/github/backdrop/backdrop"
 BACKDROP_GIT_REPO="https://github.com/backdrop/backdrop.git"
-BACKDROP_BRANCH="docs"
+BACKDROP_BRANCH="1.x"
 
 echo "Installing backdrop to " . $DOCROOT
 
