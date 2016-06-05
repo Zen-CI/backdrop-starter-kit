@@ -11,7 +11,7 @@ deploy:
       database_pass: DBPASSWORD
       account_user: admin
       account_mail: admin@zen.ci
-      account_pass: REPLACE_WITH_ADMIN_PASSWORD
+      account_pass: test
       site_mail: noreply@zen.ci
       site_name: 'Example advanced site'
     scripts:
