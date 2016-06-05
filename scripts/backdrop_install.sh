@@ -1,7 +1,7 @@
 #!/bin/sh
 
-BACKDROP_DEPLOY="$HOME/github/backdrop/docs"
-BACKDROP_GIT_REPO="https://github.com/itpatrol/backdrop.git"
+BACKDROP_DEPLOY="$HOME/github/backdrop/backdrop"
+BACKDROP_GIT_REPO="https://github.com/backdrop/backdrop.git"
 BACKDROP_BRANCH="docs"
 
 echo "Installing backdrop to " . $DOCROOT
@@ -39,6 +39,10 @@ cp -r $BACKDROP_DEPLOY/sites ./
 # Unlink modules and copy instead.
 rm -f modules
 cp -r $BACKDROP_DEPLOY/modules ./
+
+# Unlink modules and copy instead.
+rm -f layouts
+cp -r $BACKDROP_DEPLOY/layouts ./
 
 # Unlink themes and copy instead.
 rm -f themes

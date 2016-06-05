@@ -3,7 +3,7 @@
 GITHUBDIR="$HOME/github"
 TARGETFOLDER="$DOCROOT/modules/contrib"
 
-for module in `cat $ZENCI_DEPLOY_DIR/scripts/contrib_modules.list`; do
+for module in `cat $ZENCI_DEPLOY_DIR/settings/contrib_modules.list`; do
   owner=`echo $module|awk -F/ '{print$1}'`
   repo=`echo $module|awk -F/ '{print$2}'`
   branch=`echo $module|awk -F/ '{print$3}'`
