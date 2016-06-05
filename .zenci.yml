@@ -1,18 +1,18 @@
 deploy:
   branch:
-    server: REPLCAE_WITH_SERVER
-    username: REPLCAE_WITH_USER
+    server: REPLACE_WITH_SERVER
+    username: REPLACE_WITH_USER
     dir: '{home}/github/{repo_owner}/{repo_name}/{branch}'
     env_vars:
-      docroot: 'REPLCAE_WITH_DOCROOT'
-      domain: 'REPLCAE_WITH_DOMAIN'
-      database_name: REPLCAE_WITH_DATABASE_NAAME
-      database_user: REPLCAE_WITH_DTABASE_USER
-      database_pass: REPLCAE_WITH_DATABASE_PASSWORD
-      account_user: REPLCAE_WITH_ADMIN_USER
-      account_mail: REPLCAE_WITH_ADMIN_EMAIL
-      account_pass: REPLCAE_WITH_ADMIN_PASSWORD
-      site_mail: REPLCAE_WITH_SITE_EMAIL
-      site_name: REPLCAE_WITH_SITE_NAME
+      docroot: 'REPLACE_WITH_DOCROOT'
+      domain: 'REPLACE_WITH_DOMAIN'
+      database_name: REPLACE_WITH_DATABASE_NAAME
+      database_user: REPLACE_WITH_DTABASE_USER
+      database_pass: REPLACE_WITH_DATABASE_PASSWORD
+      account_user: REPLACE_WITH_ADMIN_USER
+      account_mail: REPLACE_WITH_ADMIN_EMAIL
+      account_pass: REPLACE_WITH_ADMIN_PASSWORD
+      site_mail: REPLACE_WITH_SITE_EMAIL
+      site_name: REPLACE_WITH_SITE_NAME
     scripts:
       init: '{deploy_dir}/scripts/deploy_init.sh'
