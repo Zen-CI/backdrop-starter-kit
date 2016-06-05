@@ -16,10 +16,14 @@ mkdir -p $DOCROOT/themes/contrib
 mkdir -p $DOCROOT/layouts/contrib
 
 cd $DOCROOT/modules
-ln -s $ZENCI_DEPLOY_DIR/modules ./docs_modules
+ln -s $ZENCI_DEPLOY_DIR/modules ./custom
 
 cd $DOCROOT/themes
-ln -s $ZENCI_DEPLOY_DIR/themes ./docs_themes
+ln -s $ZENCI_DEPLOY_DIR/themes ./custom
+
+cd $DOCROOT/layouts
+ln -s $ZENCI_DEPLOY_DIR/layouts ./custom
+
 
 echo "Contrib modules"
 sh $ZENCI_DEPLOY_DIR/scripts/contrib_modules.sh
