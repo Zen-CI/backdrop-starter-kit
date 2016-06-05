@@ -9,7 +9,7 @@ echo "Full site path: $DOCROOT"
 cd $DOCROOT
 
 
-echo "Linking Docs modules from $ZENCI_DEPLOY_DIR"
+echo "Linking modules from $ZENCI_DEPLOY_DIR"
 
 mkdir -p $DOCROOT/modules/contrib
 mkdir -p $DOCROOT/themes/contrib
