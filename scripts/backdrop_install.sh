@@ -22,7 +22,7 @@ cd $DOCROOT
 
 # Link Backdrop files
 ln -s $BACKDROP_DEPLOY/* ./
-ln -s $BACKDROP_DEPLOY/.htaccess ./
+cp $BACKDROP_DEPLOY/.htaccess ./
 
 # Unlink settings.php and copy instead.
 rm -f settings.php
