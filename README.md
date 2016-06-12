@@ -56,7 +56,7 @@ github:
   backdrop:
     backdrop:				#backdrop get cloned here
   YOURNAME:
-    backdrop-startup-kit:	#your repository get cloned here
+    backdrop-starter-kit:	#your repository get cloned here
       modules: 				# your own modules
       themes: 				# your own themes
       layouts: 				# your own layouts
@@ -87,7 +87,7 @@ Credits
 -------
 
 - [BackdropCMS](https://backdropcms.org)
-- [HowTO](http://docs.zen.ci/getting-started/advanced-deploy-backdrop)
+- [HowTO](http://docs.zen.ci/getting-started/complete-beginners-deploy-backdrop)
 
 
 License
