@@ -87,7 +87,7 @@ Credits
 -------
 
 - [BackdropCMS](https://backdropcms.org)
-- [HowTO](http://docs.zen.ci/getting-started/complete-beginners-deploy-backdrop)
+- [HowTO](http://docs.zen.ci/deploy/deploy-backdrop)
 
 
 License
